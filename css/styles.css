@@ -1,0 +1,65 @@
+.centerForm {
+  position: absolute;
+  margin: auto;
+  top: 300px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-radius: 3px;
+  font-size: 72px;
+}
+
+.centerLabel {
+  margin: 0 40%;
+}
+
+.r:hover,
+.l2:hover,
+.a:hover {
+  color: green;
+}
+
+.e:hover,
+.i:hover {
+  color: red;
+}
+
+.l:hover,
+.k:hover {
+  color: blue;
+}
+
+.bigButton {
+  white-space: nowrap;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 14px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  background: #fff;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  color: #6772e5;
+  text-decoration: none;
+  transition: all 0.15s ease;
+}
+
+input {
+  height: 38px;
+  padding: 6px 10px;
+  background-color: #fff;
+  border: 1px solid #d4dada;
+  border-radius: 3px;
+  box-shadow: none;
+  vertical-align: bottom;
+  width: 100%;
+}
+
+.centerInput:focus {
+  outline: none;
+  border: 1px solid green;
+}
