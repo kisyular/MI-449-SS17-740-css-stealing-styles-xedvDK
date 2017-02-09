@@ -1,7 +1,5 @@
 body {
-  font-size: 62.5%;
-  font-family: Camphor, Open Sans, Segoe UI, sans-serif;
-  font-weight: 400;
+  font-family: sans-serif;
 }
 
 .centerForm {
@@ -21,25 +19,25 @@ body {
   margin: 0 auto;
 }
 
-.r:hover,
-.a:hover {
+.r,
+.a {
   color: #98c379;
 }
 
-.e:hover {
+.e {
   color: #b400b9;
 }
 
-.l:hover,
-.k:hover {
+.l,
+.k {
   color: #56b6c2;
 }
 
-.l2:hover {
+.l2 {
   color: #c62d48;
 }
 
-.i:hover {
+.i {
   color: #c6ad00;
 }
 
@@ -60,6 +58,7 @@ body {
   text-decoration: none;
   transition: all 0.15s ease;
   font-style: normal;
+  font-family: sans-serif;
 }
 
 .bigButton:hover {
@@ -85,7 +84,7 @@ input {
   vertical-align: bottom;
   width: 100%;
   font-weight: 300;
-  font-size: 11px;
+  font-size: 16px;
 }
 
 li {
